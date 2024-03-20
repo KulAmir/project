@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.wrapper {
+    background: #FFFFFF;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+header {
+    background: #f9f7f7;
+    padding:  0 24px;
+    border-radius: 25px;
+}
+
+header {
+    padding: 10px 0;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    
+}
+
+header .logo {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.text1 {
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+}
+.text1 {
+    font-size: 16px;
+    font-style:normal ;
+    align-items: center;
+}
+
+.text1 .btn {
+    font-size: 16px;
+    font-weight: 400;
+    background: white;
+    padding: 10px 40px;
+    border-radius: 30px;
+
+}
+
+header nav {
+    margin: 0 auto;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+    justify-content: space-between;
+    background: white;
+    padding: 10px 40px;
+    border-radius: 30px;
+}
+
+header nav ul li {
+    display: inline-block;
+    font-size: 16px;
+}
+
+header nav ul li a {
+    color: black;
+}
+
+header nav ul li:not(.active):not(.btn) a:hover {
+    border-bottom: 5px solid  black;
+}
+
+.hero-container {
+    background: linear-gradient(to right, #C1DEE8, #FBD9B9);
+    margin-top: 89px;
+    padding: 50px 60px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+
+.hero--info {
+    width: 479px;
+    padding-top: 100px;
+}
+
+.hero--info h2 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.hero--info h1 {
+    font-size:67px ;
+    font-weight: 600 ;
+}
+
+.hero--info p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.baner img {
+    position: absolute;
+    top: 150px;
+    right: 100px;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding: 1px 0 1px 18px;
+    border-radius: 30px;
+    max-width: 438px;
+}
+
+input {
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+}
+
+.btn1 {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    background: black;
+    padding: 18.4px 15px;
+    border-radius: 30px;
+}
+
+.steps h3 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.steps h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 45px;
+}
+
+.steps p {
+    font-size: 28;
+    font-weight: 600;
+}
+
+.steps h2 {
+    width: 329px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.steps .inner {
+    display: flex;
+    gap: 131px;
+    margin-bottom: 100px;
+}
+
+.steps img{
+    margin-bottom: 22px;
+}
+
+.steps2 h3 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 31px;
+}
+
+.steps2 h1 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 31px;
+}
+
+.steps2 p {
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 19px;
+}
+
+.steps2 h2 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.steps2 .inner2{
+    display: flex;
+    gap: 20;
+}
+
+.hz {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hz .navigation {
+    justify-content: space-between;
+    gap: 16px;
+    display: flex;
+}
+
+.left, .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+}
+
+.left {
+    font-size: 50px;
+    font-weight: 100;
+
+}
+
+.right {
+    font-size: 50px;
+    font-weight: 100;
+    color: white;
+    background: black;
+    border-radius: 50%;
+    border: none;
+    margin-right: -5px;
+}
+
+.step2 .d83 {
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    gap: 16px;
+    margin-bottom: 100px;
+}
+
+.steps3 h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 45px;
+}
+
+.steps3 .tt h2 {
+    font-size: 38px ;
+    font-weight: 600 ;
+    margin-bottom: 24px ;
+}
+
+.steps3 .tt p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 63px;
+}
+
+.steps3 .tt {
+    width: 497px;
+}
+
+.steps3 .bt .btnII {
+    background: black;
+    color: #FFFFFF;
+    border-radius: 50px;
+    padding: 15px 30px;
+    border: 0;
+    margin-right: 24px;
+    transition: all 500ms ease;
+}
+
+.steps3 .bt .btnI {
+    background: #FFFFFF;
+    color: black;
+    border-radius: 50px;
+    padding: 15px 30px;
+    transition: all 500ms ease;
+    margin-bottom: 63px ;
+}
+
+.steps3 .bt .btnII:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.steps3 .bt .btnI:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.btnI a:visited {
+    color: black;
+}
+
+.btnII a:visited {
+    color: white;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.clok .c {
+    display: flex;
+    gap: 92px;
+}
+
+.clok .c h1 {
+    font-size: 67px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.clok .c p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.bb {
+    background: linear-gradient(to right, #C1DEE8, #FBD9B9);
+    margin-top: 89px;
+    padding: 50px 60px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+}
+
+.tex {
+    width: 479px;
+    padding-top: 100px;
+    position: relative;
+    z-index: 1;
+}
+
+.tex h2 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+
+.tex p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 45px;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding: 1px 0 1px 18px;
+    border-radius: 30px;
+    max-width: 448px;
+    margin-bottom: 100px;
+}
+
+input {
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    background: none;
+}
+
+.I {
+    right: 120px;
+}
+
+.oferI {
+    position: absolute;
+    top: -10px;
+    left: -40px;
+}
