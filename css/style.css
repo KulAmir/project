@@ -580,4 +580,20 @@ input {
     .I img {
         width: 100%;
     }
+
+    .step2 img {
+        max-width: 100%;
+    }
+
+    .bb {
+        padding: 25px;
+    }
+
+    .hero--info {
+        padding: 20px;
+    }
+
+    .conteiners img {
+        padding: 10px;
+    }
 }
