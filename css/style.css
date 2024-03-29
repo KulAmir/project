@@ -596,4 +596,8 @@ input {
     .conteiners img {
         padding: 10px;
     }
+
+    .about .tt {
+        padding: 10px;
+    }
 }
