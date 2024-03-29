@@ -69,6 +69,7 @@ header .logo {
 header nav {
     margin: 0 auto;
 }
+
 header nav ul {
     list-style: none;
     display: flex;
@@ -98,11 +99,13 @@ header nav ul li:not(.active):not(.btn) a:hover {
     padding: 50px 60px;
     border-radius: 10px;
     margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between
 }
 
 
 .hero--info {
-    width: 479px;
+    /* width: 479px; */
     padding-top: 100px;
 }
 
@@ -123,9 +126,7 @@ header nav ul li:not(.active):not(.btn) a:hover {
 }
 
 .baner img {
-    position: absolute;
-    top: 150px;
-    right: 100px;
+    width: 100%
 }
 
 form {
@@ -278,9 +279,7 @@ input {
     margin-bottom: 63px;
 }
 
-.steps3 .tt {
-    width: 497px;
-}
+
 
 .steps3 .bt .btnII {
     background: black;
@@ -325,18 +324,18 @@ input {
     margin-bottom: 100px;
 }
 
-.clok .c {
+.clok {
     display: flex;
     gap: 92px;
 }
 
-.clok .c h1 {
+.clok  h1 {
     font-size: 67px;
     font-weight: 600;
     margin-bottom: 5px;
 }
 
-.clok .c p {
+.clok  p {
     font-size: 16px;
     font-weight: 400;
 }
@@ -354,7 +353,7 @@ input {
 }
 
 .tex {
-    width: 479px;
+    /* width: 479px; */
     padding-top: 100px;
     position: relative;
     z-index: 1;
@@ -397,4 +396,188 @@ input {
     position: absolute;
     top: -10px;
     left: -40px;
+}
+
+
+@media (max-width: 1267px) {
+    header{
+        grid-template-columns: 1fr;
+        padding: 15px;
+        flex-wrap: wrap;
+        row-gap: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav {
+    order: 1;
+    flex-basis: 100%;
+    }
+
+    header .logo {
+        margin-bottom: 20px;
+    }
+    .text1 {
+        justify-content: flex-start;
+    }
+    header nav {
+        margin: 0 0 20px;
+        
+    }
+    .steps .inner {
+        display: block;
+    }
+    .steps2 .inner2 {
+        display: block;
+    }
+
+    .steps2 h3 {
+        text-align: center;
+    }
+
+    .step h2 {
+        text-align: center;
+    }
+
+    .baner img {
+      right: 10px;
+      top: 250px;
+    }
+
+    .banner2 ,.inner {
+        padding: 20px;
+    }
+    .hero-container {
+        padding: 20px;
+    }
+
+    .inner2 .step2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .step2 img {
+        margin-bottom: 15px;
+    }
+
+    .steps .step {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        margin-bottom: 25px;
+    }
+
+    .clok {
+        column-gap: 60px;
+    }
+
+}
+
+@media (max-width: 960px) {
+    .banner2 .steps {
+    justify-content: flex-start;
+    }
+    .steps .inner {
+        display: block;
+    }
+    .steps2 .inner2 {
+        display: block;
+    }
+    .baner img {
+        position: relative;
+    }
+    .baner img {
+        top: -60px;
+      }
+    .hero-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .steps .step {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+
+    .step h2 {
+        text-align: center;
+    }
+
+    .inner2 .step2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about  {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hz {
+        display: block;
+    }
+
+    .bb {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+ @media (max-width: 670px) {
+    header {
+        flex-wrap: wrap;
+        row-gap: 10px;
+        display: flex;
+        
+    }
+
+    header {
+        justify-content: space-between;
+    }
+
+    .tex {
+        max-width: 479px
+    }
+    
+    nav {
+        order: 1;
+        flex-basis: 100%;
+    }
+    
+    .i img {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 481px) {
+    .wrapper {
+        padding: 20px;
+    }
+    
+    header nav ul {
+        flex-direction: column;
+    }
+
+    .about .tt {
+        padding-left: 55px;
+    }
+
+    .clok {
+        display: flex;
+    column-gap: 20px;
+    justify-content: center;
+    }
+    
+    .conteiners img {
+        width: 100%;
+    }
+
+    .I img {
+        width: 100%;
+    }
 }
